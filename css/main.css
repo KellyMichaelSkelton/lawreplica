@@ -42,6 +42,7 @@ body {
 
 .extra-margin-top {
   margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 
@@ -52,13 +53,71 @@ body {
 .bg-red {
   height: 390px;
   overflow-y: scroll;
-  background-color: red;
+  background-color: maroon;
   padding: 25px;
+  color: white;
 }
 
+.bg-red1 {
+  height: 410px;
+  overflow-y: scroll;
+  background-color: maroon;
+  padding: 10px;
+  color: white;
+  margin-top: 5px;
+}
 
+.boldit {
+  font-weight: bold;
+  font-size: small;
+}
 
+.realsmall {
+  font-size: small;
+}
+
+.all-text {
+  font-size: small;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: small;
+  margin-top: 20px;
+}
+
+.whoimage {
+  height: 230px;
+  width: 91px;
+}
+
+.whatwedocont {
+  font-size: small;
+  margin: 0px;
+}
+
+.graymenu {
+  height: 410px;
+  overflow-y: scroll;
+  background-color: tan;
+  padding: 10px;
+  color: white;
+  margin-top: 5px;
+}
 
 /************************
     footer styles
 *************************/
+
+footer {
+  font-size: small;
+}
+
+.page-footer {
+  border-top: 5px black;
+}
+
+.final-say {
+  color: grey;
+}
